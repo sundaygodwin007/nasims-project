@@ -1,0 +1,66 @@
+/* style for the navbar */
+
+nav .links .navbar-nav a {
+  text-align: center;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* hiding the text from showing */
+nav .links .navbar-brand {
+  display: none;
+}
+
+/* created a new link and displayed it hidden */
+.nav {
+  visibility: hidden;
+}
+
+/* gave the header a postion of absolute so the logo and the text can come on it */
+header {
+  position: absolute;
+}
+
+/* gave the logo a postion of absolute so i can make the logo and the texts come on it */
+.logo {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* gave the header logo-image a width of 30% and also took it to the center */
+.logo img {
+  width: 30%;
+}
+
+/* alignd the header logo and the text to the center and also gave them paddings */
+header .logo {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+/* chaged the header h1 a color and also add some padding to it */
+header .logo h1 {
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+/* gave the header paragraph a color of white */
+header .logo p {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  /* gave the nav a padding left and right */
+  nav {
+    padding: 0 3rem;
+  }
+
+  /* allowed the nav-text display on wider screen */
+  nav .links .navbar-brand {
+    display: inherit;
+  }
+}
