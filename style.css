@@ -135,6 +135,7 @@ header .desktop {
     position: initial;
     /* text-align: center;
     color: #fff; */
+    color: black;
   }
 
   /* gave the text an absolute so it can go on the image and also
