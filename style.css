@@ -92,17 +92,17 @@ header .desktop {
   }
 
   /* took the header back to its original state and not the default state  */
-  header {
+  nav {
     position: initial;
   }
 
-  header.desktop {
+  header .desktop {
     display: inherit;
   }
 
   /* stopped the mobile design from appearing on the desktop view */
   header .mobile {
-    display: none;
+    /* display: none; */
   }
 
   /* gave the logo image a width */
@@ -113,6 +113,10 @@ header .desktop {
   /* allowed the header image occupy all its space */
   header .row .image img {
     width: 100%;
+  }
+
+  header .main .text {
+    color: red;
   }
 
   /* added the prev button */
@@ -127,7 +131,22 @@ header .desktop {
     display: inherit;
   }
 
-  header .desktop {
-    display: inherit;
+  .carousel-inner {
+    position: initial;
+    /* text-align: center;
+    color: #fff; */
+  }
+
+  /* gave the text an absolute so it can go on the image and also
+   gave it some spaces */
+  .centered {
+    position: initial;
+    /* top: 15%;
+    left: 0%;
+    padding: 0 3rem; */
+  }
+
+  header {
+    position: initial;
   }
 }
