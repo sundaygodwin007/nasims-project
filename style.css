@@ -44,7 +44,7 @@ with the centered div  */
 
 /* gave the text an absolute so it can go on the image and also
  gave it some spaces */
-.centered {
+.text {
   position: absolute;
   top: 15%;
   left: 0%;
@@ -52,12 +52,12 @@ with the centered div  */
 }
 
 /* gave the image a size */
-.centered img {
+.text img {
   width: 25%;
 }
 
 /* gave the anchor tag a color */
-.centered a {
+.text a {
   text-decoration: none;
   color: rgb(1, 22, 1);
 }
@@ -74,13 +74,9 @@ header button .carousel-control-next,
   display: none;
 }
 
-header .desktop {
-  display: none;
-}
-
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
-   so it doesnt take the default nav positioning */
+   so it doesnt take the default nav positioning  */
   nav {
     position: initial;
     padding: 0 3rem;
@@ -91,18 +87,23 @@ header .desktop {
     display: inherit;
   }
 
-  /* took the header back to its original state and not the default state  */
+  /* gave the nav a position of initial so it will return the nav back to its
+   original state and not the default state  */
   nav {
     position: initial;
   }
 
-  header .desktop {
-    display: inherit;
+  /* gave the whole header a postion of initial so it will 
+  return the back the header to its original state */
+  header {
+    position: initial;
   }
 
-  /* stopped the mobile design from appearing on the desktop view */
-  header .mobile {
-    /* display: none; */
+  /* gave the text a position of initial so it will return 
+  the text back to its original state*/
+  header .text {
+    position: initial;
+    text-align: left;
   }
 
   /* gave the logo image a width */
@@ -115,39 +116,21 @@ header .desktop {
     width: 100%;
   }
 
-  header .main .text {
-    color: red;
-  }
-
   /* added the prev button */
   header button .carousel-control-prev,
   .carousel-control-next {
     display: inherit;
   }
 
-  /* added the next button */
+  /* added back the next button */
   header button .carousel-control-next,
   .carousel-control-prev {
     display: inherit;
   }
 
+  /* added back the previous button */
   .carousel-inner {
     position: initial;
-    /* text-align: center;
-    color: #fff; */
-    color: black;
-  }
-
-  /* gave the text an absolute so it can go on the image and also
-   gave it some spaces */
-  .centered {
-    position: initial;
-    /* top: 15%;
-    left: 0%;
-    padding: 0 3rem; */
-  }
-
-  header {
-    position: initial;
+    color: rgb(0, 0, 0);
   }
 }
