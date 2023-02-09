@@ -1,5 +1,15 @@
 /* style for the navbar */
 
+/* gave the navbar and absolute so the drop down menu list can go on the image  */
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  width: 100%;
+}
+
+/* styled the nav-links drop down */
 nav .links .navbar-nav a {
   text-align: center;
   background-color: #fff;
@@ -12,54 +22,34 @@ nav .links .navbar-brand {
   display: none;
 }
 
-/* created a new link and displayed it hidden */
+/* created a new link so the navbar button can go to the rightb and displayed it hidden */
 .nav {
   visibility: hidden;
 }
 
-/* gave the header a postion of absolute so the logo and the text can come on it */
+/* gave the header a relative to the nav absolute */
 header {
-  position: absolute;
+  position: relative;
 }
 
-/* gave the logo a postion of absolute so i can make the logo and the texts come on it */
-.logo {
-  position: absolute;
-  top: 10%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-/* gave the header logo-image a width of 30% and also took it to the center */
-.logo img {
-  width: 30%;
-}
-
-/* header img {
-  background-image: linear-gradient(rgba(7, 9, 9, 0.8), rgba(9, 13, 14, 0.8));
-} */
-
-/* alignd the header logo and the text to the center and also gave them paddings */
-header .logo {
+/* styled the texts on the image and gave the it a relationship with the centered div  */
+.carousel-inner {
+  position: relative;
   text-align: center;
-  padding: 0 2rem;
-}
-
-/* chaged the header h1 a color and also add some padding to it */
-header .logo h1 {
-  color: #fff;
-  padding: 1rem 2rem;
-}
-
-/* gave the header paragraph a color of white */
-header .logo p {
   color: #fff;
 }
 
-header .logo a {
-  text-decoration: none;
-  color: rgb(1, 32, 1);
+/* gave the text an absolute so it can go on the image and also gave it some spaces */
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  padding: 0 3rem;
+}
+
+/* gave the image a size */
+.centered img {
+  width: 25%;
 }
 
 @media (min-width: 992px) {
