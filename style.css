@@ -1,6 +1,7 @@
 /* style for the navbar */
 
-/* gave the navbar and absolute so the drop down menu list can go on the image  */
+/* gave the navbar and absolute so the drop down menu
+ list can go on the image  */
 nav {
   position: absolute;
   top: 0;
@@ -22,7 +23,8 @@ nav .links .navbar-brand {
   display: none;
 }
 
-/* created a new link so the navbar button can go to the rightb and displayed it hidden */
+/* created a new link so the navbar button can go to the rightb 
+and displayed it hidden */
 .nav {
   visibility: hidden;
 }
@@ -32,14 +34,16 @@ header {
   position: relative;
 }
 
-/* styled the texts on the image and gave the it a relationship with the centered div  */
+/* styled the texts on the image and gave the it a relationship 
+with the centered div  */
 .carousel-inner {
   position: relative;
   text-align: center;
   color: #fff;
 }
 
-/* gave the text an absolute so it can go on the image and also gave it some spaces */
+/* gave the text an absolute so it can go on the image and also
+ gave it some spaces */
 .centered {
   position: absolute;
   top: 15%;
@@ -58,26 +62,68 @@ header {
   color: rgb(1, 22, 1);
 }
 
-/* hide the prev button */
+/* removed the prev button */
 header button .carousel-control-prev,
 .carousel-control-next {
   display: none;
 }
 
-/* hide the next button */
+/* removed the next button */
 header button .carousel-control-next,
 .carousel-control-prev {
   display: none;
 }
 
+header .desktop {
+  display: none;
+}
+
 @media (min-width: 992px) {
-  /* gave the nav a padding left and right */
+  /* gave the nav a padding left and right and also made the position initial
+   so it doesnt take the default nav positioning */
   nav {
+    position: initial;
     padding: 0 3rem;
   }
 
   /* allowed the nav-text display on wider screen */
   nav .links .navbar-brand {
+    display: inherit;
+  }
+
+  /* took the header back to its original state and not the default state  */
+  header {
+    position: initial;
+  }
+
+  header.desktop {
+    display: inherit;
+  }
+
+  /* stopped the mobile design from appearing on the desktop view */
+  header .mobile {
+    display: none;
+  }
+
+  /* gave the logo image a width */
+  header .text img {
+    width: 40%;
+  }
+
+  /* allowed the header image occupy all its space */
+  header .row .image img {
+    width: 100%;
+  }
+
+  /* added the prev button */
+  header button .carousel-control-prev,
+  .carousel-control-next {
+    display: inherit;
+  }
+
+  /* added the next button */
+  header button .carousel-control-next,
+  .carousel-control-prev {
     display: inherit;
   }
 }
