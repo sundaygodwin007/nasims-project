@@ -36,6 +36,10 @@ header {
   width: 30%;
 }
 
+/* header img {
+  background-image: linear-gradient(rgba(7, 9, 9, 0.8), rgba(9, 13, 14, 0.8));
+} */
+
 /* alignd the header logo and the text to the center and also gave them paddings */
 header .logo {
   text-align: center;
@@ -51,6 +55,11 @@ header .logo h1 {
 /* gave the header paragraph a color of white */
 header .logo p {
   color: #fff;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: rgb(1, 32, 1);
 }
 
 @media (min-width: 992px) {
