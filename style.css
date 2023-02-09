@@ -52,6 +52,11 @@ header {
   width: 25%;
 }
 
+.centered a {
+  text-decoration: none;
+  color: rgb(1, 22, 1);
+}
+
 @media (min-width: 992px) {
   /* gave the nav a padding left and right */
   nav {
