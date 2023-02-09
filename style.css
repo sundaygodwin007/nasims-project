@@ -52,9 +52,22 @@ header {
   width: 25%;
 }
 
+/* gave the anchor tag a color */
 .centered a {
   text-decoration: none;
   color: rgb(1, 22, 1);
+}
+
+/* hide the prev button */
+header button .carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+/* hide the next button */
+header button .carousel-control-next,
+.carousel-control-prev {
+  display: none;
 }
 
 @media (min-width: 992px) {
