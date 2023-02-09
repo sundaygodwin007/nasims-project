@@ -126,4 +126,8 @@ header .desktop {
   .carousel-control-prev {
     display: inherit;
   }
+
+  header .desktop {
+    display: inherit;
+  }
 }
