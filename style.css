@@ -109,16 +109,16 @@ h3 {
   font-size: 16px;
 }
 
-/* gave the article about image a size and space at the top */
-article #about-image img {
+/* gave the article abt-image a size and space at the top */
+article #abt-image img {
   margin-top: 8rem;
   width: 100%;
-  padding: 5rem 3rem;
+  padding: 2rem 3rem;
 }
 
 /* gave the article paragraph space at the bottom */
 article p {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 /* style for the anchor tag */
@@ -128,6 +128,20 @@ article a {
   background-color: rgb(1, 41, 1);
   padding: 10px;
   border-radius: 5px;
+}
+
+article #abt-text p {
+  margin-bottom: 3rem;
+}
+
+/* made the id called about-image not display */
+article #about-image {
+  display: none;
+}
+
+/* made the id called about-image not display */
+article #about-text {
+  display: none;
 }
 
 @media (min-width: 992px) {
@@ -222,5 +236,15 @@ article a {
   article h2,
   h3 {
     font-size: 1rem;
+  }
+
+  /* made the id called abt-image not display */
+  article #abt-image img {
+    display: none;
+  }
+
+  /* made the id called abt-text not display */
+  article #abt-text {
+    display: none;
   }
 }
