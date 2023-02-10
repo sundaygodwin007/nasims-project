@@ -74,6 +74,20 @@ header button .carousel-control-next,
   display: none;
 }
 
+/* added some styling to the section */
+section {
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+  color: #fff;
+  letter-spacing: 0.2px;
+}
+
+/* changed the color of the anchor tag */
+section a {
+  text-decoration: none;
+  color: rgb(1, 41, 1);
+}
+
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
    so it doesnt take the default nav positioning  */
@@ -132,5 +146,10 @@ header button .carousel-control-next,
   .carousel-inner {
     position: initial;
     color: rgb(0, 0, 0);
+  }
+
+  /* aligned the section text to the center */
+  section {
+    text-align: center;
   }
 }
