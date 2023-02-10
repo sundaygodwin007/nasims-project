@@ -129,6 +129,10 @@ article a {
   border-radius: 5px;
 }
 
+article .about-image img {
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
    so it doesnt take the default nav positioning  */
