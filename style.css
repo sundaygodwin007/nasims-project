@@ -88,6 +88,14 @@ section a {
   color: rgb(1, 41, 1);
 }
 
+article {
+  position: none;
+}
+
+article .image img {
+  width: 100%;
+  padding: 7rem 5rem;
+}
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
    so it doesnt take the default nav positioning  */
