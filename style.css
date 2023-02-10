@@ -88,14 +88,17 @@ section a {
   color: rgb(1, 41, 1);
 }
 
-article {
-  position: none;
-}
-
+/* position the article image of the president  */
 article .image img {
   width: 100%;
-  padding: 7rem 5rem;
+  padding: 5rem 3rem;
 }
+
+/* gave the article text heading (h4) space left and right */
+article #text h4 {
+  padding: 0 2rem;
+}
+
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
    so it doesnt take the default nav positioning  */
@@ -159,5 +162,23 @@ article .image img {
   /* aligned the section text to the center */
   section {
     text-align: center;
+  }
+
+  /* gave the image a width and spaces around */
+  article .image img {
+    width: 100%;
+    padding: 8rem 2rem;
+  }
+
+  /* gave the article paragraph (p) top and right space */
+  article p {
+    padding-top: 3rem;
+    padding-right: 2rem;
+  }
+
+  /* aligned all the article text to the left and gave them top and bottom space */
+  article #text {
+    text-align: start;
+    padding: 5rem 0;
   }
 }
