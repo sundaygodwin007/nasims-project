@@ -109,11 +109,18 @@ h3 {
   font-size: 16px;
 }
 
+/* gave the article header (h6) which is about us an orange color */
+article h6 {
+  color: rgb(214, 96, 23);
+  padding-bottom: 1.5rem;
+}
+
 /* gave the article abt-image a size and space at the top */
 article #abt-image img {
   margin-top: 8rem;
   width: 100%;
   padding: 2rem 3rem;
+  float: right;
 }
 
 /* gave the article paragraph space at the bottom */
@@ -126,21 +133,22 @@ article a {
   text-decoration: none;
   color: #fff;
   background-color: rgb(1, 41, 1);
-  padding: 10px;
+  padding: 10px 2rem;
   border-radius: 5px;
 }
 
+/* gave all the paragraph text in the ID if abt-text a size of 3rem */
 article #abt-text p {
   margin-bottom: 3rem;
 }
 
-/* made the id called about-image not display */
-article #about-image {
+/* turned off all the image in the class of desktop article about-image */
+article .desktop .about-image {
   display: none;
 }
 
-/* made the id called about-image not display */
-article #about-text {
+/* made all the content in the desktop class not display */
+article .desktop {
   display: none;
 }
 
@@ -246,5 +254,24 @@ article #about-text {
   /* made the id called abt-text not display */
   article #abt-text {
     display: none;
+  }
+
+  /* made the desktop image in the class of about-image display by
+   turning it on here*/
+  article .desktop .about-image {
+    display: inherit;
+  }
+
+  /* made the whole desktop article display by turning it on here  */
+  article .desktop {
+    display: inherit;
+  }
+
+  /* aligned all the text in the deastop article aligned to the left */
+  article .desktop h6,
+  h2,
+  h4,
+  p {
+    text-align: start;
   }
 }
