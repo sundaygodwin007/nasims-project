@@ -112,7 +112,7 @@ h3 {
 /* gave the article about image a size and space at the top */
 article .container .about img {
   margin-top: 8rem;
-  width: 60%;
+  width: 100%;
 }
 
 /* gave the article paragraph space at the bottom */
@@ -127,10 +127,6 @@ article a {
   background-color: rgb(1, 41, 1);
   padding: 10px;
   border-radius: 5px;
-}
-
-article .about-image img {
-  width: 100%;
 }
 
 @media (min-width: 992px) {
