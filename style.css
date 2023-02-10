@@ -110,9 +110,10 @@ h3 {
 }
 
 /* gave the article about image a size and space at the top */
-article .container .about img {
+article #about-image img {
   margin-top: 8rem;
   width: 100%;
+  padding: 5rem 3rem;
 }
 
 /* gave the article paragraph space at the bottom */
