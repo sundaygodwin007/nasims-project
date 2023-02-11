@@ -288,7 +288,10 @@ no border and spaces */
 /* just removed the border cos it alread took the styling of the previous button */
 .article-6 button {
   border: none;
+  margin-bottom: 2rem;
 }
+
+/*  */
 
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
