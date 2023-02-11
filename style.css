@@ -220,11 +220,9 @@ no border and spaces */
 }
 
 /* ARTICLE-3 */
-
-/* gave the cards equal view height for article-3 */
+/* gave the cards a margin-top article-3 */
 .article-3 .row .card {
-  height: 70vh;
-  width: 100%;
+  margin-top: 2rem;
 }
 
 /* gave the image equal view height for article-3 */
