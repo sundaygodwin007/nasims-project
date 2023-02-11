@@ -278,6 +278,18 @@ no border and spaces */
   margin-right: 20px;
 }
 
+/* stylying for article-6 paragraph (p) */
+.article-6 .got-questions p {
+  text-align: center;
+  padding: 1rem;
+  margin-top: -18px;
+}
+
+/* just removed the border cos it alread took the styling of the previous button */
+.article-6 button {
+  border: none;
+}
+
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
@@ -476,5 +488,15 @@ a padding and aligned everything to the center */
     padding: 0 12rem;
     font-size: 1.5rem;
     text-align: center;
+  }
+  /* END OF ARTICLE-5 */
+  /*  */
+  .article-6 .got-questions h2 {
+    font-size: 2rem;
+  }
+
+  /* moved the paragraph text to the center */
+  .article-6 .got-questions p {
+    margin-top: -18px;
   }
 }
