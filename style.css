@@ -267,9 +267,15 @@ no border and spaces */
   padding: 3rem 1rem;
 }
 
+/* styling for header-2 (h2)  */
 .know-first h2 {
   padding: 0 3rem;
   margin-top: 1rem;
+}
+
+/* stryling for SVG to give them space inbetween eachother */
+.know-first svg {
+  margin-right: 20px;
 }
 
 /* DESKTOP VIEW */
@@ -458,7 +464,7 @@ a padding and aligned everything to the center */
 
   /* ARTICLE-4 */
   /* gave the button in article-4 a width */
-  button {
+  .article-4 button {
     width: 20%;
   }
   /* END OF ARTICLE-4 */
