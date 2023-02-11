@@ -157,6 +157,7 @@ article .desktop {
 /* gave the cards and equal view height */
 .article-2 .row .card {
   height: 120vh;
+  width: 100%;
 }
 
 /* gave the class of article-2 and class of programmes a padding */
