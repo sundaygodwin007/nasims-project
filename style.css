@@ -161,13 +161,12 @@ article .desktop {
 
 /* gave the class of article-2 and class of programmes a padding */
 .article-2 .programmes {
-  padding: 8rem 5rem 5rem;
+  padding: 5rem 2rem 5rem;
 }
 
 /* gave the class of article-2 and class of programmes paragraph (p) 
 a padding and aligned everything to the center */
 .article-2 .programmes p {
-  padding: 0 8rem;
   text-align: center;
 }
 
@@ -207,6 +206,18 @@ no border and spaces */
   width: 10rem;
 }
 
+/* END OF ARTICLE-2 */
+
+/* ARTICLE-3 */
+
+/* gave the article-3 a center text and a margin-top */
+.article-3 .latest-news {
+  text-align: center;
+  margin-top: 6rem;
+  padding: 0 2rem;
+}
+
+/* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
    so it doesnt take the default nav positioning  */
@@ -332,6 +343,17 @@ no border and spaces */
 
   /* ARTICLE-2 */
 
+  /* gave the class of article-2 and class of programmes a padding */
+  .article-2 .programmes {
+    padding: 8rem 5rem 5rem;
+  }
+
+  /* gave the class of article-2 and class of programmes paragraph (p) 
+a padding and aligned everything to the center */
+  .article-2 .programmes p {
+    padding: 0 8rem;
+  }
+
   .article-2 .row .card-1 {
     display: inherit;
   }
@@ -339,5 +361,21 @@ no border and spaces */
   /* made the anchor tlink display block */
   .article-2 .row a {
     display: block;
+  }
+  /* End of article-2 */
+
+  /* ARTICLE-3 */
+
+  /* gave the article-3 a center text and a margin-top */
+  .article-3 .latest-news {
+    text-align: center;
+    margin-top: 6rem;
+  }
+
+  /* give the paragraph of class latest-news a text-align of
+ center a margin-top of -2rem for the destop view*/
+  .article-3 .latest-news p {
+    text-align: center;
+    margin-top: -2rem;
   }
 }
