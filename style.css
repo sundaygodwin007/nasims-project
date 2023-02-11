@@ -173,7 +173,7 @@ a padding and aligned everything to the center */
 
 /* gave the card image and equal veiw height */
 .article-2 .row img {
-  height: 60vh;
+  height: 40vh;
 }
 
 /* gave the class of article-2 and class of row , 
@@ -360,6 +360,11 @@ no border and spaces */
 a padding and aligned everything to the center */
   .article-2 .programmes p {
     padding: 0 8rem;
+  }
+
+  /* gave the card image and equal veiw height and different from the mobile*/
+  .article-2 .row img {
+    height: 60vh;
   }
 
   .article-2 .row .card-1 {
