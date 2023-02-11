@@ -246,7 +246,7 @@ no border and spaces */
 /* END OF ARTICLE-3 */
 
 /* ARTICLE-4 */
-button {
+.article-4 button {
   display: initial;
   text-decoration: none;
   background-color: rgb(1, 41, 1);
