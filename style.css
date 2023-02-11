@@ -154,8 +154,57 @@ article .desktop {
 
 /* ARTICLE-2 */
 
+/* gave the cards and equal view height */
+.article-2 .row .card {
+  height: 120vh;
+}
+
+/* gave the class of article-2 and class of programmes a padding */
+.article-2 .programmes {
+  padding: 8rem 5rem 5rem;
+}
+
+/* gave the class of article-2 and class of programmes paragraph (p) 
+a padding and aligned everything to the center */
+.article-2 .programmes p {
+  padding: 0 8rem;
+  text-align: center;
+}
+
+/* gave the card image and equal veiw height */
+.article-2 .row img {
+  height: 60vh;
+}
+
+/* gave the class of article-2 and class of row , 
+class of card-title and class of text a start align of start */
+.article-2 .row .card-title,
+.card-text {
+  text-align: start;
+}
+
+.article-2 .row .card-title,
+.card-text {
+  margin-bottom: 2rem;
+}
+
+/* gave the class of article-2 and class of row and class of card-text a margin-top */
+.article-2 .row .card-text {
+  margin-top: -25px;
+}
+
+/* stopped the card-1 from showing on mobile screen */
 .article-2 .row .card-1 {
   display: none;
+}
+
+/* gave the article-2 anchor tage a background-color, a width, 
+no border and spaces */
+.article-2 .row a {
+  background-color: rgb(1, 22, 1);
+  border: none;
+  padding: 10px 10px;
+  width: 10rem;
 }
 
 @media (min-width: 992px) {
@@ -287,37 +336,8 @@ article .desktop {
     display: inherit;
   }
 
-  /* gave the class of article-2 and class of programmes a padding */
-  .article-2 .programmes {
-    padding: 5rem 5rem 0;
-  }
-
-  /* gave the class of article-2 and class of programmes paragraph (p) 
-a padding and aligned everything to the center */
-  .article-2 .programmes p {
-    padding: 0 8rem;
-    text-align: center;
-  }
-
-  /* gave the card image and equal veiw height */
-  .article-2 .row img {
-    height: 60vh;
-  }
-
-  /* gave the cards and equal view height */
-  .article-2 .row .card {
-    height: 110vh;
-  }
-
-  /* gave the class of article-2 and class of row , 
-class of card-title and class of text a start align of start */
-  .article-2 .row .card-title,
-  .card-text {
-    text-align: start;
-  }
-
-  /* gave the class of article-2 and class of row and class of card-text a margin-top */
-  .article-2 .row .card-text {
-    margin-top: -25px;
+  /* made the anchor tlink display block */
+  .article-2 .row a {
+    display: block;
   }
 }
