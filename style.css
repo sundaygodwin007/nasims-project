@@ -152,6 +152,17 @@ article .desktop {
   display: none;
 }
 
+/* gave the parent element which is the class of
+   article-2 a margin-top and a padding */
+.article-2 {
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
+
+.row .card .card-img-bottom img {
+  margin-top: 2rem;
+}
+
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
    so it doesnt take the default nav positioning  */
@@ -273,5 +284,25 @@ article .desktop {
   h4,
   p {
     text-align: start;
+  }
+
+  /* gave the parent element which is the class of
+   article-2 a margin-top and a padding */
+  .article-2 {
+    margin-top: 5rem;
+    padding: 0 10rem;
+  }
+
+  /* gave the article-2 paragraph (p) a margin-top  */
+  .article-2 p {
+    margin-top: -2rem;
+  }
+
+  .row .card {
+    width: 43%;
+  }
+
+  .row .card img {
+    height: 40vh;
   }
 }
