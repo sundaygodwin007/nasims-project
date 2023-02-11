@@ -245,6 +245,33 @@ no border and spaces */
 }
 /* END OF ARTICLE-3 */
 
+/* ARTICLE-4 */
+button {
+  display: initial;
+  text-decoration: none;
+  background-color: rgb(1, 41, 1);
+  color: #fff;
+  padding: 1rem 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 5px;
+}
+
+/* ARTICLE-5 */
+.know-first {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.know-first h2 {
+  padding: 0 3rem;
+  margin-top: 1rem;
+}
+
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
@@ -257,12 +284,6 @@ no border and spaces */
   /* allowed the nav-text display on wider screen */
   nav .links .navbar-brand {
     display: inherit;
-  }
-
-  /* gave the nav a position of initial so it will return the nav back to its
-   original state and not the default state  */
-  nav {
-    position: initial;
   }
 
   /* gave the whole header a postion of initial so it will 
@@ -432,5 +453,22 @@ a padding and aligned everything to the center */
   /* gave the image equal view height for article-3 */
   .article-3 .row img {
     height: 35vh;
+  }
+  /* END OF ARTICLE-3 */
+
+  /* ARTICLE-4 */
+  /* gave the button in article-4 a width */
+  button {
+    width: 20%;
+  }
+  /* END OF ARTICLE-4 */
+
+  /* ARTICLE-5 */
+  /* gave the button class header-2 (h2) in article-5 spaces by
+   the side and a font-size*/
+  .know-first h2 {
+    padding: 0 12rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 }
