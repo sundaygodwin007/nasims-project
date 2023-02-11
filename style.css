@@ -219,6 +219,19 @@ no border and spaces */
   padding: 0 2rem;
 }
 
+/* ARTICLE-3 */
+
+/* gave the cards equal view height for article-3 */
+.article-3 .row .card {
+  height: 70vh;
+  width: 100%;
+}
+
+/* gave the image equal view height for article-3 */
+.article-3 .row img {
+  height: 35vh;
+}
+
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
