@@ -83,7 +83,7 @@ section {
 
 /* gave the section h6 a font-size */
 section h6 {
-  font-size: 13px;
+  font-size: 10px;
 }
 
 /* changed the color of the anchor tag */
@@ -95,7 +95,7 @@ section a {
 /* position the article image of the president  */
 article .image img {
   width: 100%;
-  padding: 5rem 3rem;
+  padding: 5rem 2rem;
 }
 
 /* gave the article text heading (h4) a padding on the right */
@@ -124,7 +124,7 @@ article h6 {
 article #abt-image img {
   margin-top: 8rem;
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 2rem 2rem;
   float: right;
 }
 
@@ -144,7 +144,7 @@ article a {
 
 /* gave all the paragraph text in the ID if abt-text a size of 3rem */
 article #abt-text p {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* turned off all the image in the class of desktop article about-image */
