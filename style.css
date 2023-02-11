@@ -81,6 +81,11 @@ section {
   color: #fff;
 }
 
+/* gave the section h6 a font-size */
+section h6 {
+  font-size: 13px;
+}
+
 /* changed the color of the anchor tag */
 section a {
   text-decoration: none;
@@ -154,6 +159,10 @@ article .desktop {
 
 /* ARTICLE-2 */
 
+.article-2 {
+  padding: 0 1rem;
+}
+
 /* gave the card a different view height from the desktop */
 .article-2 .row .card {
   height: 100vh;
@@ -220,6 +229,11 @@ no border and spaces */
 }
 
 /* ARTICLE-3 */
+/* gave the whole article-3 a padding of left and right */
+.article-3 {
+  padding: 0 3rem;
+}
+
 /* gave the cards a margin-top article-3 */
 .article-3 .row .card {
   margin-top: 2rem;
@@ -227,8 +241,9 @@ no border and spaces */
 
 /* gave the image equal view height for article-3 */
 .article-3 .row img {
-  height: 35vh;
+  height: 25vh;
 }
+/* END OF ARTICLE-3 */
 
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
@@ -355,6 +370,10 @@ no border and spaces */
   }
 
   /* ARTICLE-2 */
+  /* gave the whole article for destop a left padding */
+  .article-2 {
+    padding: 0 3rem;
+  }
 
   /* gave the cards and equal view height */
   .article-2 .row .card {
@@ -393,6 +412,10 @@ a padding and aligned everything to the center */
 
   /* ARTICLE-3 */
 
+  .article-3 {
+    padding: 0 5rem;
+  }
+
   /* gave the article-3 a center text and a margin-top */
   .article-3 .latest-news {
     text-align: center;
@@ -404,5 +427,10 @@ a padding and aligned everything to the center */
   .article-3 .latest-news p {
     text-align: center;
     margin-top: -2rem;
+  }
+
+  /* gave the image equal view height for article-3 */
+  .article-3 .row img {
+    height: 35vh;
   }
 }
