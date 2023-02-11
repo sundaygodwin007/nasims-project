@@ -154,9 +154,9 @@ article .desktop {
 
 /* ARTICLE-2 */
 
-/* gave the cards and equal view height */
+/* gave the card a different view height from the desktop */
 .article-2 .row .card {
-  height: 120vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -344,6 +344,12 @@ no border and spaces */
   }
 
   /* ARTICLE-2 */
+
+  /* gave the cards and equal view height */
+  .article-2 .row .card {
+    height: 120vh;
+    width: 100%;
+  }
 
   /* gave the class of article-2 and class of programmes a padding */
   .article-2 .programmes {
