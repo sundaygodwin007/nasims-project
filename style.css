@@ -152,15 +152,10 @@ article .desktop {
   display: none;
 }
 
-/* gave the parent element which is the class of
-   article-2 a margin-top and a padding */
-.article-2 {
-  margin-top: 5rem;
-  padding: 0 2rem;
-}
+/* ARTICLE-2 */
 
-.row .card .card-img-bottom img {
-  margin-top: 2rem;
+.article-2 .row .card-1 {
+  display: none;
 }
 
 @media (min-width: 992px) {
@@ -286,23 +281,43 @@ article .desktop {
     text-align: start;
   }
 
-  /* gave the parent element which is the class of
-   article-2 a margin-top and a padding */
-  .article-2 {
-    margin-top: 5rem;
-    padding: 0 10rem;
+  /* ARTICLE-2 */
+
+  .article-2 .row .card-1 {
+    display: inherit;
   }
 
-  /* gave the article-2 paragraph (p) a margin-top  */
-  .article-2 p {
-    margin-top: -2rem;
+  /* gave the class of article-2 and class of programmes a padding */
+  .article-2 .programmes {
+    padding: 5rem 5rem 0;
   }
 
-  .row .card {
-    width: 43%;
+  /* gave the class of article-2 and class of programmes paragraph (p) 
+a padding and aligned everything to the center */
+  .article-2 .programmes p {
+    padding: 0 8rem;
+    text-align: center;
   }
 
-  .row .card img {
-    height: 40vh;
+  /* gave the card image and equal veiw height */
+  .article-2 .row img {
+    height: 60vh;
+  }
+
+  /* gave the cards and equal view height */
+  .article-2 .row .card {
+    height: 110vh;
+  }
+
+  /* gave the class of article-2 and class of row , 
+class of card-title and class of text a start align of start */
+  .article-2 .row .card-title,
+  .card-text {
+    text-align: start;
+  }
+
+  /* gave the class of article-2 and class of row and class of card-text a margin-top */
+  .article-2 .row .card-text {
+    margin-top: -25px;
   }
 }
