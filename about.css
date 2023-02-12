@@ -50,8 +50,8 @@ a relative position and aligned it to the center and also a color of white */
 .centered {
   position: absolute;
   top: 50%;
-  left: 8%;
-  padding: 0 2rem;
+  left: 22%;
+  padding: 0 1rem;
 }
 /* END OF HEADER */
 
