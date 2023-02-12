@@ -49,9 +49,9 @@ a relative position and aligned it to the center and also a color of white */
  perfectly for the mobile vies */
 .centered {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 8%;
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 /* END OF HEADER */
 
