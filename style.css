@@ -1,5 +1,10 @@
 /* style for the navbar */
 
+/* made the nav .links fixed  */
+nav .links {
+  position: fixed;
+  width: 100%;
+}
 /* gave the navbar and absolute so the drop down menu
  list can go on the image  */
 nav {
@@ -329,11 +334,9 @@ footer .combined h3 {
 }
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
-  /* gave the nav a padding left and right and also made the position initial
-   so it doesnt take the default nav positioning  */
-  nav {
-    position: initial;
-    padding: 0 3rem;
+  /* gave the navbar h4 a paddin of top&bottom and also left and right */
+  nav .links h4 {
+    padding: 1rem 2rem;
   }
 
   /* allowed the nav-text display on wider screen */

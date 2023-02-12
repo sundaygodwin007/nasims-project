@@ -7,6 +7,12 @@ nav {
   z-index: 9;
 }
 
+nav .links {
+  position: fixed;
+  width: 100%;
+  padding: 0 6rem;
+}
+
 header {
   position: relative;
 }
@@ -44,11 +50,20 @@ header .container-fluid img {
 
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
+  /* gave the logo a size */
+  .links img {
+    width: 15%;
+  }
+
   /* repositiond the texts on the image to perfectly
    position in the center for the desktop view */
   .centered {
     position: absolute;
     top: 50%;
     left: 35%;
+  }
+
+  nav .links {
+    position: fixed;
   }
 }
