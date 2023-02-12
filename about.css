@@ -119,6 +119,116 @@ article .row #text a {
 .article-6 .row img {
   height: 25vh;
 }
+/* END OF ARTICLE-6 */
+
+/* ARTICLE-7 */
+/* gave the anchor button in article-7 different styles */
+.article-7 button a {
+  text-decoration: none;
+  background-color: rgb(38, 212, 139);
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+
+/* gave the button it self space at the top and no border  */
+.article-7 button {
+  border: none;
+  margin-top: 4rem;
+}
+/* END OF ARTICLE-7 */
+
+/* ARTICLE-8 */
+.know-first {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 3rem 1rem;
+  margin-top: 4rem;
+}
+
+/* styling for header-2 (h2)  */
+.know-first h2 {
+  padding: 0 3rem;
+  margin-top: 1rem;
+}
+
+/* stryling for SVG to give them space inbetween eachother */
+.know-first svg {
+  margin-right: 20px;
+}
+
+/* END OF ARTICLE-8 */
+
+/* article-9 */
+/* stylying for article-9 paragraph (p) */
+.article-9 .got-questions p {
+  text-align: center;
+  padding: 1rem;
+  margin-top: -18px;
+}
+
+/* gave the article-9 header (h2) a font-size and space at the top */
+.article-9 .got-questions h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+/* just removed the border cos it alread took the 
+styling of the previous button */
+.article-9 button {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+/* gave the anchor tag (link) a style */
+.article-9 .got-questions a {
+  text-decoration: none;
+  background-color: rgb(38, 212, 139);
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+/* END OF ARTICLE-9 */
+
+/* FOOTER  */
+
+/* gave the footer a background-color of green  */
+footer {
+  background-color: rgb(42, 102, 42);
+}
+
+/* moved the group class to the center and gave it a margin-top */
+.combined {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* gave the svg icons a margin-right and color */
+.combined svg {
+  margin-right: 1.4rem;
+  color: #fff;
+}
+
+/* gave the class wraping the links a margin-bottom and a padding top */
+.combined .links {
+  margin-bottom: 1.2rem;
+  padding-top: 2.5rem;
+}
+
+/* gave the anchor tag a color and margin-right */
+.combined .links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+footer .combined h3 {
+  padding: 2rem 1rem 5rem;
+  color: #fff;
+  font-size: 1rem;
+}
 
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
@@ -201,6 +311,30 @@ article .row #text a {
   .article-6 .row img {
     height: 25vh;
   }
-
   /* END OF ARTICLE-6*/
+
+  /* ARTICLE-8 */
+  /* gave the button class header-2 (h2) in article-8 spaces by
+   the side and a font-size*/
+  .know-first h2 {
+    padding: 0 12rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  /* END OF ARTICLE-8 */
+
+  /*  ARTICLE-9*/
+  .article-9 .got-questions h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  /* END OF ARTICLE-9 FOR DESKTOP VIEW */
+
+  /* FOOTER */
+  /* FOOTER */
+  footer .combined h3 {
+    padding: 2rem 5rem 5rem;
+    color: #fff;
+    font-size: 1rem;
+  }
 }
