@@ -1,0 +1,11 @@
+/* gave the logo image a width */
+
+/* gave the logo a size */
+.links img {
+  width: 10%;
+}
+
+/* gave the links after clicking the button on mobile a text align of center */
+.links a {
+  text-align: center;
+}
