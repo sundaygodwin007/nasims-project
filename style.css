@@ -291,8 +291,42 @@ no border and spaces */
   margin-bottom: 2rem;
 }
 
-/*  */
+/* FOOTER  */
 
+/* gave the footer a background-color of green  */
+footer {
+  background-color: rgb(1, 22, 1);
+}
+
+/* moved the group class to the center and gave it a margin-top */
+.combined {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* gave the svg icons a margin-right and color */
+.combined svg {
+  margin-right: 1.4rem;
+  color: #fff;
+}
+
+/* gave the class wraping the links a margin-bottom and a padding top */
+.combined .links {
+  margin-bottom: 1.2rem;
+  padding-top: 2.5rem;
+}
+
+/* gave the anchor tag a color and margin-right */
+.combined .links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+footer .combined h3 {
+  padding: 2rem 1rem 5rem;
+  color: #fff;
+}
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* gave the nav a padding left and right and also made the position initial
@@ -501,5 +535,11 @@ a padding and aligned everything to the center */
   /* moved the paragraph text to the center */
   .article-6 .got-questions p {
     margin-top: -18px;
+  }
+
+  /* FOOTER */
+  footer .combined h3 {
+    padding: 2rem 5rem 5rem;
+    color: #fff;
   }
 }
