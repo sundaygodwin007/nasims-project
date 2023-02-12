@@ -1,4 +1,15 @@
-/* gave the logo image a width */
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+}
+
+header {
+  position: relative;
+}
 
 /* gave the logo a size */
 .links img {
@@ -8,4 +19,36 @@
 /* gave the links after clicking the button on mobile a text align of center */
 .links a {
   text-align: center;
+}
+
+/*  */
+
+header .container-fluid img {
+  width: 100%;
+  height: 60vh;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+/* made the text on the image and positioned it
+ perfectly for the mobile vies */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+
+/* DESKTOP VIEW */
+@media (min-width: 992px) {
+  /* repositiond the texts on the image to perfectly
+   position in the center for the desktop view */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+  }
 }
