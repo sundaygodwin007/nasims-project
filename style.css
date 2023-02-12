@@ -34,6 +34,11 @@ and displayed it hidden */
   visibility: hidden;
 }
 
+/* hide the text from appearing on the mobile view */
+.links .container-fluid h4 {
+  display: none;
+}
+
 /* gave the header a relative to the nav absolute */
 header {
   position: relative;
@@ -334,6 +339,11 @@ footer .combined h3 {
 }
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
+  /* allowed the text from appearing on the mobile view */
+  .links .container-fluid h4 {
+    display: initial;
+  }
+
   /* gave the navbar h4 a paddin of top&bottom and also left and right */
   nav .links h4 {
     padding: 1rem 2rem;
