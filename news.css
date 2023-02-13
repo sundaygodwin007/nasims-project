@@ -32,30 +32,14 @@ header p {
   padding: 0 3rem;
 }
 
+/* gave the grid a width of 100% so there wont be an overflow */
 .row {
   width: 100%;
 }
 
-/* gave the article abt-image a size and space at the top */
-article #abt-image img {
-  margin-top: 8rem;
-  width: 100%;
-  padding: 0 2rem;
-  text-align: center;
-}
-
-/* gave the article paragraph space at the bottom */
-article h3 {
-  padding: 2rem 1rem;
-}
-
-/* style for the anchor tag */
-article a {
-  text-decoration: none;
-  color: #fff;
-  background-color: rgb(1, 41, 1);
-  padding: 10px 2rem;
-  border-radius: 5px;
+/* made the section that was made for the desktop not appear on mobile screen */
+.desktop {
+  display: none;
 }
 
 /* gave all the paragraph text in the ID if abt-text a size of 3rem */
@@ -63,8 +47,46 @@ article #abt-text p {
   margin-bottom: 2rem;
   padding: 0 1rem;
 }
+
+/* aligned all the text in the mobile section to the center */
+section .mobile {
+  text-align: center;
+}
+
+/* gave the mobile section image a width, padding & margin-top */
+section .mobile img {
+  width: 100%;
+  padding: 2rem 3rem;
+  margin-top: 8rem;
+}
+
+/* have the header (h2) in section mobile a margin-bottom */
+section .mobile h2 {
+  margin-bottom: 2rem;
+}
+
+/* have the paragraph in section a padding of left and right */
+section p {
+  padding: 0 1rem;
+}
 @media (min-width: 992px) {
-  .mobile {
+  /* turned off the section that was made for the mobile-view */
+  section .mobile {
     display: none;
+  }
+
+  /* turned on the sctio that was made for the deesktop view */
+  .desktop {
+    display: inherit;
+  }
+
+  section .desktop {
+    text-align: start;
+    padding: 2rem 5rem;
+    margin-top: 7rem;
+  }
+
+  section p {
+    padding: 0;
   }
 }
