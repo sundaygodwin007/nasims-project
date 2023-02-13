@@ -22,7 +22,7 @@ nav .links {
 /* gave the heaader a style */
 header {
   background-color: rgb(245, 203, 220);
-  padding: 15rem 3rem 8rem;
+  padding: 15rem 3rem 7.5rem;
   text-align: center;
   color: #0c0b0b;
 }
@@ -31,6 +31,7 @@ header {
 header p {
   padding: 0 3rem;
 }
+/* END OF HEADER */
 
 /* gave the grid a width of 100% so there wont be an overflow */
 .row {
