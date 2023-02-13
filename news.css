@@ -22,9 +22,9 @@ nav .links {
 /* gave the heaader a style */
 header {
   background-color: rgb(245, 203, 220);
-  padding: 15rem 5rem 8rem;
+  padding: 15rem 2rem 8rem;
   text-align: center;
-  color: #fff;
+  color: #0c0b0b;
 }
 
 /* gave the header paragraph (p) a padding left and right */
@@ -102,7 +102,7 @@ article a {
   text-align: center;
 }
 
-article #text h3 {
+.article-2 #text h3 {
   margin-bottom: 2rem;
 }
 
@@ -115,6 +115,100 @@ article #text h3 {
 .article-2 .mobile #text {
   line-height: 2.5rem;
 }
+/* END OF ARTICLE-2 */
+
+/* ARTICLE-3 */
+.know-first {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 3rem 1rem;
+  margin-top: 7rem;
+}
+
+/* styling for header-2 (h2)  */
+.know-first h2 {
+  padding: 0 3rem;
+  margin-top: 1rem;
+}
+
+/* stryling for SVG to give them space inbetween eachother */
+.know-first svg {
+  margin-right: 20px;
+}
+
+/* END OF ARTICLE-3 */
+
+/* article-4 */
+/* stylying for article-9 paragraph (p) */
+.article-4 .got-questions p {
+  text-align: center;
+  padding: 1rem;
+  margin-top: -18px;
+}
+
+/* gave the article-9 header (h2) a font-size and space at the top */
+.article-4 .got-questions h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+/* just removed the border cos it alread took the 
+  styling of the previous button */
+.article-4 button {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+/* gave the anchor tag (link) a style */
+.article-4 .got-questions a {
+  text-decoration: none;
+  background-color: rgb(38, 212, 139);
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+/* END OF ARTICLE-4
+
+/* FOOTER  */
+
+/* gave the footer a background-color of green  */
+footer {
+  background-color: rgb(42, 102, 42);
+}
+
+/* moved the group class to the center and gave it a margin-top */
+.combined {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* gave the svg icons a margin-right and color */
+.combined svg {
+  margin-right: 1.4rem;
+  color: #fff;
+}
+
+/* gave the class wraping the links a margin-bottom and a padding top */
+.combined .links {
+  margin-bottom: 1.2rem;
+  padding-top: 2.5rem;
+}
+
+/* gave the anchor tag a color and margin-right */
+.combined .links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+/*  */
+footer .combined h3 {
+  padding: 2rem 1rem 5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+/* END OF THE FOOTER */
 
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
@@ -142,36 +236,36 @@ article #text h3 {
   }
   /* END OF SECTION */
 
-  /* ARTICLE */
-  /* gave the whole article space at the top and padding at the left and right */
-  article {
+  /* ARTICLE-2 */
+  /* gave the whole article-2 space at the top and padding at the left and right */
+  .article-2 {
     margin-top: 14rem;
     padding: 0 4rem;
   }
 
   /* gave the id of text spaces left and right and also aligned 
 them to the center */
-  article #text {
+  .article-2 #text {
     text-align: start;
     padding: 0 1rem;
   }
 
   /* gave the article image a width of 100% so it dont over-flow */
-  article img {
+  .article-2 img {
     width: 100%;
     margin-top: 0;
   }
 
   /* gave the article header (h2) space at the bottom */
-  article .mobile .row h2 {
+  .article-2 .mobile .row h2 {
     margin-bottom: 3rem;
   }
 
   /* have the paragraph in the article a  line height of 2rem */
-  article .mobile p {
+  .article-2 .mobile p {
     line-height: 2rem;
   }
 
-  /* NOTE: THE CLASS OF ARTICLE-2 TOOK THE MOBILE AND ALSO 
+  /* NOTE: THE CLASS OF ARTICLE-3 AND ARTICLE-4 AND FOOTER TOOK THE MOBILE AND ALSO 
   THE PREVIOUS FORMAT(cos of the class and element name) */
 }
