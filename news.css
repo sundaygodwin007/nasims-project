@@ -1,0 +1,70 @@
+/* made the nav absolute so the drop down can come on it background-text */
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* aligned all links to the center at drop down */
+nav .links {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+/* gave the logo image a width  */
+.links img {
+  width: 20%;
+}
+
+/* gave the heaader a style */
+header {
+  background-color: rgb(245, 203, 220);
+  padding: 15rem 5rem 8rem;
+  text-align: center;
+  color: #fff;
+}
+
+/* gave the header paragraph (p) a padding left and right */
+header p {
+  padding: 0 3rem;
+}
+
+.row {
+  width: 100%;
+}
+
+/* gave the article abt-image a size and space at the top */
+article #abt-image img {
+  margin-top: 8rem;
+  width: 100%;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+/* gave the article paragraph space at the bottom */
+article h3 {
+  padding: 2rem 1rem;
+}
+
+/* style for the anchor tag */
+article a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(1, 41, 1);
+  padding: 10px 2rem;
+  border-radius: 5px;
+}
+
+/* gave all the paragraph text in the ID if abt-text a size of 3rem */
+article #abt-text p {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+@media (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+}
