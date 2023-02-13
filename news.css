@@ -69,9 +69,57 @@ section .mobile h2 {
 section p {
   padding: 0 1rem;
 }
+/* END OF SECTION  */
+
+/* ARTICLE */
+/* gave the id of text spaces left and right and also aligned 
+them to the center */
+article #text {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+/* gave the id of text header-2(h2) a space below  */
+article #text h2 {
+  margin-bottom: 2rem;
+}
+
+/* made the width 100 so it dont over-flow */
+article img {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+/* gave the anchor tag/link a color */
+article a {
+  text-decoration: none;
+  color: rgb(16, 69, 16);
+}
+
+/* ARTICLE-2 */
+/* moved all text to the center and gave them spaces at the left and right */
+.article-2 {
+  text-align: center;
+}
+
+article #text h3 {
+  margin-bottom: 2rem;
+}
+
+/* gave the class of article-2 image a space on the left */
+.article-2 img {
+  padding: 0 0 0 1rem;
+}
+
+/* gave the class of article-2 and id of texts a space inbetween their lines */
+.article-2 .mobile #text {
+  line-height: 2.5rem;
+}
+
+/* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* turned off the section that was made for the mobile-view */
-  section .mobile {
+  .mobile {
     display: none;
   }
 
@@ -80,13 +128,50 @@ section p {
     display: inherit;
   }
 
+  /* gave the desktop class some styling */
   section .desktop {
     text-align: start;
     padding: 2rem 5rem;
     margin-top: 7rem;
   }
 
+  /* removed the padding in the section paragraph so all texts
+   can align perfectly */
   section p {
     padding: 0;
   }
+  /* END OF SECTION */
+
+  /* ARTICLE */
+  /* gave the whole article space at the top and padding at the left and right */
+  article {
+    margin-top: 14rem;
+    padding: 0 4rem;
+  }
+
+  /* gave the id of text spaces left and right and also aligned 
+them to the center */
+  article #text {
+    text-align: start;
+    padding: 0 1rem;
+  }
+
+  /* gave the article image a width of 100% so it dont over-flow */
+  article img {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  /* gave the article header (h2) space at the bottom */
+  article .mobile .row h2 {
+    margin-bottom: 3rem;
+  }
+
+  /* have the paragraph in the article a  line height of 2rem */
+  article .mobile p {
+    line-height: 2rem;
+  }
+
+  /* NOTE: THE CLASS OF ARTICLE-2 TOOK THE MOBILE AND ALSO 
+  THE PREVIOUS FORMAT(cos of the class and element name) */
 }
