@@ -41,6 +41,7 @@ nav .link h4 {
   color: rgb(212, 231, 221);
   padding: 1rem 5rem;
   border-radius: 8px;
+  margin-left: 12px;
 }
 
 /* created a new link so the navbar button can go to the rightb 
