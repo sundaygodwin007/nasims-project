@@ -15,19 +15,13 @@ nav {
   background-color: #fff;
 }
 
+/* gave the navbar space around */
 .navbar {
   padding: 1rem 2.5rem;
 }
 
-/*  */
-nav .links h4 {
-  font-size: 16px;
-  font-weight: bold;
-  /* margin-right: 8rem; */
-}
-
 /* styled the nav-links drop down */
-nav .links .navbar-nav a {
+nav .link .navbar-nav a {
   text-align: center;
   background-color: #fff;
   border-bottom-left-radius: 10px;
@@ -36,8 +30,14 @@ nav .links .navbar-nav a {
 }
 
 /* hiding the text from showing */
-nav .links .navbar-brand {
+/*  */
+nav .link h4 {
   display: none;
+}
+
+/* made the login a button and gave it a background-color */
+.link .navbar-nav .btn-login {
+  background-color: rgb(17, 104, 17);
 }
 
 /* created a new link so the navbar button can go to the rightb 
@@ -364,6 +364,13 @@ footer .combined h3 {
   /* allowed the nav-text display on wider screen */
   nav .links .navbar-brand {
     display: inherit;
+  }
+
+  /* changed the font-size of the link  */
+  nav .link h4 {
+    display: initial;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   /* gave the whole header a postion of initial so it will 
