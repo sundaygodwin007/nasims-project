@@ -14,12 +14,20 @@ nav {
   width: 100%;
 }
 
+/*  */
+nav .links h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8rem;
+}
+
 /* styled the nav-links drop down */
 nav .links .navbar-nav a {
   text-align: center;
   background-color: #fff;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  font-size: 1rem;
 }
 
 /* hiding the text from showing */
