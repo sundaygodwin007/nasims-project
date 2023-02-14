@@ -37,10 +37,10 @@ nav .link h4 {
 
 /* made the login a button and gave it a background-color */
 .link .navbar-nav .btn-login {
-  background-color: rgb(17, 104, 17);
-  color: #fff;
-  padding: 0.5rem 3rem;
-  border-radius: 10px;
+  background-color: rgb(40, 136, 85);
+  color: rgb(212, 231, 221);
+  padding: 1rem 5rem;
+  border-radius: 8px;
 }
 
 /* created a new link so the navbar button can go to the rightb 
