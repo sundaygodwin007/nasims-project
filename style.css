@@ -1,7 +1,7 @@
 /* style for the navbar */
 
 /* made the nav .links fixed  */
-nav .links {
+nav .link {
   position: fixed;
   width: 100%;
 }
