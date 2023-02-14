@@ -38,6 +38,9 @@ nav .link h4 {
 /* made the login a button and gave it a background-color */
 .link .navbar-nav .btn-login {
   background-color: rgb(17, 104, 17);
+  color: #fff;
+  padding: 0.5rem 3rem;
+  border-radius: 10px;
 }
 
 /* created a new link so the navbar button can go to the rightb 
@@ -54,6 +57,11 @@ and displayed it hidden */
 /* gave the header a relative to the nav absolute */
 header {
   position: relative;
+}
+
+/* gave the container wrapping the header a space at the top */
+header .carousel-inner {
+  padding-top: 6rem;
 }
 
 /* styled the texts on the image and gave the it a relationship 
