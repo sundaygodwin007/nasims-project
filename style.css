@@ -15,8 +15,8 @@ nav {
   background-color: #fff;
 }
 
-.link {
-  text-align: end;
+.navbar {
+  padding: 1rem 2.5rem;
 }
 
 /*  */
