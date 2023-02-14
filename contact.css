@@ -30,6 +30,9 @@ nav .navbar-nav .nav-btn {
   }
 }
 
+nav .navbar-nav .nav-btn {
+  margin-left: 14px;
+}
 /* gave the logo image a width  */
 .links img {
   width: 15%;

@@ -233,6 +233,10 @@ footer .combined h3 {
     visibility: visible;
   }
 
+  nav .navbar-nav .nav-btn {
+    margin-left: 14px;
+  }
+
   /* SECTION */
   /* section style for desktop */
   section .row {

@@ -1,4 +1,6 @@
 /* style for the navbar */
+
+/* made the navbar fixed and gave it a z-index */
 .navbar-fixed {
   width: 100%;
   position: fixed;
@@ -14,43 +16,72 @@ nav .navbar-brand {
 nav .navbar-nav .nav-btn {
   background-color: rgb(40, 136, 85);
   color: rgb(212, 231, 221);
-  margin-left: 12px;
   width: 50%;
   margin: auto;
 }
 
-/* gave the container wrapping the header a space at the top */
 header .carousel-inner {
   padding-top: 6rem;
 }
 
-/* styled the texts on the image and gave the it a relationship 
-with the centered div  */
-.carousel-inner {
-  position: relative;
-  text-align: center;
-  color: #fff;
+header .image {
+  display: none;
 }
 
-/* gave the text an absolute so it can go on the image and also
- gave it some spaces */
-.text {
-  position: absolute;
-  top: 15%;
-  left: 0%;
-  padding: 0 3rem;
-}
-
-/* gave the image a size */
+/* CAROUSEL */
 .text img {
   width: 25%;
 }
 
-/* gave the anchor tag a color */
-.text a {
-  text-decoration: none;
-  color: rgb(1, 22, 1);
+header .text {
+  text-align: center;
+  padding: 3rem 2rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(./images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
+
+/* CAROUSEL-2 */
+header .text2 {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(./images/image2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.text2 img {
+  width: 25%;
+}
+
+/* CAROUSEL-3 */
+header .text3 {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(./images/hero3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.text3 img {
+  width: 25%;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(40, 136, 85);
+  font-weight: bold;
+}
+/*  */
 
 /* removed the prev button */
 header button .carousel-control-prev,
@@ -64,38 +95,27 @@ header button .carousel-control-next,
   display: none;
 }
 
-/* added some styling to the section */
+/* SECTION */
 section {
   background-color: rgb(0, 0, 0);
   padding: 15px 0;
   color: #fff;
 }
 
-/* gave the section h6 a font-size */
 section h6 {
   font-size: 12px;
+  text-align: center;
 }
 
-/* changed the color of the anchor tag */
 section a {
   text-decoration: none;
-  color: rgb(1, 41, 1);
+  color: rgb(40, 136, 85);
 }
 
-/* position the article image of the president  */
+/* ARTICLE  */
 article .image img {
-  width: 100%;
+  width: 80%;
   padding: 5rem 2rem;
-}
-
-/* gave the article text heading (h4) a padding on the right */
-article #text h4 {
-  padding: 0 2rem 0 0;
-}
-
-/* gave the article header (h2) a margin-top */
-article h2 {
-  margin-top: 3rem;
 }
 
 /* gave the article headings (h2 & h3) a font-size */
@@ -329,29 +349,33 @@ footer .combined h3 {
     visibility: visible;
   }
 
-  /* gave the whole header a postion of initial so it will 
-  return the back the header to its original state */
-  header {
-    position: initial;
+  nav .navbar-nav .nav-btn {
+    margin-left: 14px;
   }
 
-  /* gave the text a position of initial so it will return 
-  the text back to its original state*/
+  /* HEADER */
+  header .image {
+    display: block;
+  }
+
   header .text {
-    position: initial;
-    text-align: left;
+    background-image: none;
+    color: black;
+    text-align: start;
   }
 
-  /* gave the logo image a width */
-  header .text img {
-    width: 40%;
+  header .text2 {
+    background-image: none;
+    color: rgb(0, 0, 0);
+    text-align: start;
+  }
+  header .text3 {
+    background-image: none;
+    color: rgb(0, 0, 0);
+    text-align: start;
   }
 
-  /* allowed the header image occupy all its space */
-  header .row .image img {
-    width: 100%;
-  }
-
+  /* BUTTONS */
   /* added the prev button */
   header button .carousel-control-prev,
   .carousel-control-next {
@@ -363,17 +387,7 @@ footer .combined h3 {
   .carousel-control-prev {
     display: inherit;
   }
-
-  /* added back the previous button */
-  .carousel-inner {
-    position: initial;
-    color: rgb(0, 0, 0);
-  }
-
-  /* aligned the section text to the center */
-  section {
-    text-align: center;
-  }
+  /*  */
 
   /* gave the image a width and spaces around */
   article .image img {

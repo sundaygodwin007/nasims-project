@@ -222,6 +222,10 @@ footer .combined h3 {
     visibility: visible;
   }
 
+  nav .navbar-nav .nav-btn {
+    margin-left: 14px;
+  }
+
   /* turned off the section that was made for the mobile-view */
   .mobile {
     display: none;
