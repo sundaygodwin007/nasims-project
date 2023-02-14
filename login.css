@@ -89,5 +89,6 @@ section .proceed button {
   padding: 10px 2rem;
   width: 60%;
   margin-top: 2rem;
+  margin-bottom: 3rem;
   border-radius: 10px;
 }
