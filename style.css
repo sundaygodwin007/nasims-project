@@ -24,8 +24,7 @@ nav {
 nav .link .navbar-nav a {
   text-align: center;
   background-color: #fff;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+
   font-size: 1rem;
 }
 
@@ -42,6 +41,11 @@ nav .link h4 {
   padding: 1rem 5rem;
   border-radius: 8px;
   margin-left: 12px;
+  font-weight: bold;
+}
+
+nav .navbar-nav .active {
+  border-bottom: 5px solid rgb(40, 136, 85);
 }
 
 /* created a new link so the navbar button can go to the rightb 
