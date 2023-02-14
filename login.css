@@ -52,29 +52,36 @@ section .login {
   margin-bottom: 3rem;
 }
 
+/* gave the section and login class order list a line
+ height and text align of start */
 section .login ol,
 p {
   text-align: start;
   line-height: 2rem;
 }
 
+/* moved the text in the class of row to the center */
 section .row {
   align-items: center;
 }
 
+/* made te two classes aligned side by side */
 section .row .combined {
   display: flex;
 }
 
+/* gave the checkbox space at the right */
 section .row .combined .checkbox {
   margin-right: 3rem;
 }
 
+/* gave the anchor tag a color */
 section .combined a {
   text-decoration: none;
   color: rgb(50, 168, 129);
 }
 
+/* gave the proceed button a style */
 section .proceed button {
   background-color: rgb(50, 168, 129);
   border: none;
