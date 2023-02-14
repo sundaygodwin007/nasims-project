@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav>
+      <div class="links">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <img src="./images/logo.jpg" />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <!-- this closing div coloses the div class of container-fluid -->
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About </a>
+              <a class="nav-link" href="news.html">News</a>
+              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link active" aria-current="page" href="login.html"
+                >Login</a
+              >
+            </div>
+            <!-- this closing div closes the class of nav bar nav -->
+          </div>
+          <!-- this closing div cloases the class of collapse -->
+        </nav>
+      </div>
+      <!-- this div closes the class of links -->
+    </nav>
+    <!-- end of the navbar -->
+
+    <section>
+      <div class="heading">
+        <h2>Login to your NASIMS Account</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
+          <div class="login">
+            <p>
+              For biometrics enrolment, kindly follow the instructions below;
+            </p>
+            <ol>
+              <li>Login to your dashboard and click the "verification" tab</li>
+              <li>
+                Click the “capture your fingerprint” button to download and
+                install the enrolment application
+              </li>
+              <li>
+                After installation, provide the required credentials and click
+                "Proceed".
+              </li>
+              <li>
+                Make sure the fingerprint biometric device is connected, then
+                click on "Begin Enrolment" to launch the enrolment process
+              </li>
+              <li>Click on the finger to begin the enrolment process</li>
+              <li>
+                Applicants are to enroll their Right thumb, Right index, Left
+                thumb and Left index fingers only for successful enrolment
+              </li>
+              <li>
+                After successful enrollment, click on “Submit” to save the
+                biometric enrollment
+              </li>
+            </ol>
+            <p>
+              After successful enrolment, please check the "verification" tab of
+              your self service portal to confirm if the capture was successful.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <form action="">
+            <input
+              type="text"
+              name="email"
+              placeholder="Email or application ID"
+            /><br /><br />
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Password"
+            /><br /><br />
+
+            <div class="combined">
+              <div class="checkbox">
+                <input type="checkbox" /> Keep me logged in
+              </div>
+
+              <div>
+                <a href="#">Forgot password</a>
+              </div>
+            </div>
+            <div class="proceed">
+              <button>Proceed</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
