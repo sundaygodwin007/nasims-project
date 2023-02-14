@@ -1,14 +1,33 @@
 /* made the nav absolute so the drop down can come on it background-text */
-nav {
-  position: absolute;
-  top: 0;
+
+.navbar-fixed {
+  width: 100%;
+  position: fixed;
+  z-index: 9;
 }
 
-/* aligned all links to the center at drop down */
-nav .links {
-  text-align: center;
-  position: fixed;
-  width: 100%;
+nav .navbar-brand {
+  font-size: 1rem;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+nav .navbar-nav .nav-btn {
+  background-color: rgb(40, 136, 85);
+  color: rgb(212, 231, 221);
+  margin-left: 12px;
+  width: 50%;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  nav .navbar-nav .active {
+    border-bottom: 5px solid rgb(40, 136, 85);
+  }
+
+  nav .navbar-brand {
+    visibility: visible;
+  }
 }
 
 /* gave the logo image a width  */

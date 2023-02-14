@@ -1,67 +1,22 @@
 /* style for the navbar */
-
-/* made the nav .links fixed  */
-nav .link {
+.navbar-fixed {
+  width: 100%;
   position: fixed;
-  width: 100%;
-}
-/* gave the navbar and absolute so the drop down menu
- list can go on the image  */
-nav {
-  position: absolute;
-  top: 0;
   z-index: 9;
-  width: 100%;
-  background-color: #fff;
 }
 
-/* gave the navbar space around */
-.navbar {
-  padding: 1rem 2.5rem;
-}
-
-/* styled the nav-links drop down */
-nav .link .navbar-nav a {
-  text-align: center;
-  background-color: #fff;
-
+nav .navbar-brand {
   font-size: 1rem;
-}
-
-/* hiding the text from showing */
-/*  */
-nav .link h4 {
-  display: none;
-}
-
-/* made the login a button and gave it a background-color */
-.link .navbar-nav .btn-login {
-  background-color: rgb(40, 136, 85);
-  color: rgb(212, 231, 221);
-  padding: 1rem 5rem;
-  border-radius: 8px;
-  margin-left: 12px;
   font-weight: bold;
-}
-
-nav .navbar-nav .active {
-  border-bottom: 5px solid rgb(40, 136, 85);
-}
-
-/* created a new link so the navbar button can go to the rightb 
-and displayed it hidden */
-.nav {
   visibility: hidden;
 }
 
-/* hide the text from appearing on the mobile view */
-.links .container-fluid h4 {
-  display: none;
-}
-
-/* gave the header a relative to the nav absolute */
-header {
-  position: relative;
+nav .navbar-nav .nav-btn {
+  background-color: rgb(40, 136, 85);
+  color: rgb(212, 231, 221);
+  margin-left: 12px;
+  width: 50%;
+  margin: auto;
 }
 
 /* gave the container wrapping the header a space at the top */
@@ -365,25 +320,13 @@ footer .combined h3 {
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* allowed the text from appearing on the mobile view */
-  .links .container-fluid h4 {
-    display: initial;
+
+  nav .navbar-nav .active {
+    border-bottom: 5px solid rgb(40, 136, 85);
   }
 
-  /* gave the navbar h4 a paddin of top&bottom and also left and right */
-  nav .links h4 {
-    padding: 1rem 2rem;
-  }
-
-  /* allowed the nav-text display on wider screen */
-  nav .links .navbar-brand {
-    display: inherit;
-  }
-
-  /* changed the font-size of the link  */
-  nav .link h4 {
-    display: initial;
-    font-size: 16px;
-    font-weight: bold;
+  nav .navbar-brand {
+    visibility: visible;
   }
 
   /* gave the whole header a postion of initial so it will 
