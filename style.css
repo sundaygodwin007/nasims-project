@@ -104,11 +104,9 @@ section {
 
 section h6 {
   font-size: 12px;
-  text-align: center;
 }
 
 section a {
-  text-decoration: none;
   color: rgb(40, 136, 85);
 }
 
@@ -127,28 +125,16 @@ h3 {
 /* gave the article header (h6) which is about us an orange color */
 article h6 {
   color: rgb(214, 96, 23);
-  padding-bottom: 1.5rem;
 }
 
 /* gave the article abt-image a size and space at the top */
 article #abt-image img {
-  margin-top: 8rem;
   width: 100%;
-  padding: 2rem 2rem;
-  float: right;
-}
-
-/* gave the article paragraph space at the bottom */
-article p {
-  margin-bottom: 1rem;
 }
 
 /* style for the anchor tag */
 article a {
-  text-decoration: none;
-  color: #fff;
   background-color: rgb(1, 41, 1);
-  padding: 10px 2rem;
   border-radius: 5px;
 }
 
@@ -169,10 +155,6 @@ article .desktop {
 
 /* ARTICLE-2 */
 
-.article-2 {
-  padding: 0 1rem;
-}
-
 /* gave the card a different view height from the desktop */
 .article-2 .row .card {
   height: 100vh;
@@ -187,7 +169,7 @@ article .desktop {
 /* gave the class of article-2 and class of programmes paragraph (p) 
 a padding and aligned everything to the center */
 .article-2 .programmes p {
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* gave the card image and equal veiw height */
