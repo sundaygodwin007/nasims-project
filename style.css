@@ -111,6 +111,10 @@ section a {
 }
 
 /* ARTICLE  */
+article {
+  align-items: start;
+}
+
 article .image img {
   width: 80%;
   padding: 5rem 2rem;
@@ -134,13 +138,8 @@ article #abt-image img {
 
 /* style for the anchor tag */
 article a {
-  background-color: rgb(1, 41, 1);
+  background-color: rgb(40, 136, 85);
   border-radius: 5px;
-}
-
-/* gave all the paragraph text in the ID if abt-text a size of 3rem */
-article #abt-text p {
-  margin-bottom: 2rem;
 }
 
 /* turned off all the image in the class of desktop article about-image */
@@ -155,43 +154,15 @@ article .desktop {
 
 /* ARTICLE-2 */
 
+.article-2 {
+  background-color: rgb(242, 252, 249);
+  padding: 0 0 4rem;
+}
+
 /* gave the card a different view height from the desktop */
 .article-2 .row .card {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
-}
-
-/* gave the class of article-2 and class of programmes a padding */
-.article-2 .programmes {
-  padding: 5rem 2rem 5rem;
-}
-
-/* gave the class of article-2 and class of programmes paragraph (p) 
-a padding and aligned everything to the center */
-.article-2 .programmes p {
-  /* text-align: center; */
-}
-
-/* gave the card image and equal veiw height */
-.article-2 .row img {
-  height: 40vh;
-}
-
-/* gave the class of article-2 and class of row , 
-class of card-title and class of text a start align of start */
-.article-2 .row .card-title,
-.card-text {
-  text-align: start;
-}
-
-.article-2 .row .card-title,
-.card-text {
-  margin-bottom: 2rem;
-}
-
-/* gave the class of article-2 and class of row and class of card-text a margin-top */
-.article-2 .row .card-text {
-  margin-top: -25px;
 }
 
 /* stopped the card-1 from showing on mobile screen */
@@ -199,126 +170,51 @@ class of card-title and class of text a start align of start */
   display: none;
 }
 
-/* gave the article-2 anchor tage a background-color, a width, 
-no border and spaces */
-.article-2 .row a {
-  background-color: rgb(1, 22, 1);
+/* gave the buttons for both a flex */
+.article-2 .row .all-btn {
+  display: flex;
+}
+
+.article-2 .row .btn-1 a {
+  background-color: rgb(40, 136, 85);
   border: none;
-  padding: 10px 10px;
-  width: 5rem;
-  font-size: 10px;
+  margin: 0 1rem;
+  width: 10rem;
+}
+
+.article-2 .row .btn-2 a {
+  background-color: rgb(219, 249, 234);
+  color: rgb(40, 136, 85);
+  border: none;
+  width: 10rem;
 }
 
 /* END OF ARTICLE-2 */
 
 /* ARTICLE-3 */
-
-/* gave the article-3 a center text and a margin-top */
-.article-3 .latest-news {
-  text-align: center;
-  margin-top: 6rem;
-  padding: 0 2rem;
-}
-
-/* ARTICLE-3 */
-/* gave the whole article-3 a padding of left and right */
-.article-3 {
-  padding: 0 3rem;
-}
-
-/* gave the cards a margin-top article-3 */
-.article-3 .row .card {
-  margin-top: 2rem;
-}
-
 /* gave the image equal view height for article-3 */
 .article-3 .row img {
   height: 25vh;
 }
-/* END OF ARTICLE-3 */
 
 /* ARTICLE-4 */
 .article-4 button {
-  display: initial;
-  text-decoration: none;
-  background-color: rgb(1, 41, 1);
-  color: #fff;
-  padding: 1rem 1rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  background-color: rgb(40, 136, 85);
   cursor: pointer;
   width: 60%;
   border-radius: 5px;
-}
-
-/* ARTICLE-5 */
-.know-first {
-  text-align: center;
-  background-color: #000000;
-  color: #fff;
-  padding: 3rem 1rem;
-}
-
-/* styling for header-2 (h2)  */
-.know-first h2 {
-  padding: 0 3rem;
-  margin-top: 1rem;
-}
-
-/* stryling for SVG to give them space inbetween eachother */
-.know-first svg {
-  margin-right: 20px;
-}
-
-/* stylying for article-6 paragraph (p) */
-.article-6 .got-questions p {
-  text-align: center;
-  padding: 1rem;
-  margin-top: -18px;
+  border: none;
 }
 
 /* just removed the border cos it alread took the styling of the previous button */
 .article-6 button {
   border: none;
-  margin-bottom: 2rem;
 }
 
-/* FOOTER  */
-
-/* gave the footer a background-color of green  */
 footer {
-  background-color: rgb(1, 22, 1);
+  background-color: rgb(40, 136, 85);
 }
 
-/* moved the group class to the center and gave it a margin-top */
-.combined {
-  text-align: center;
-  margin-top: 3rem;
-}
-
-/* gave the svg icons a margin-right and color */
-.combined svg {
-  margin-right: 1.4rem;
-  color: #fff;
-}
-
-/* gave the class wraping the links a margin-bottom and a padding top */
-.combined .links {
-  margin-bottom: 1.2rem;
-  padding-top: 2.5rem;
-}
-
-/* gave the anchor tag a color and margin-right */
-.combined .links a {
-  text-decoration: none;
-  color: #fff;
-  margin-right: 1rem;
-}
-
-footer .combined h3 {
-  padding: 2rem 1rem 5rem;
-  color: #fff;
-}
 /* DESKTOP VIEW */
 @media (min-width: 992px) {
   /* allowed the text from appearing on the mobile view */
@@ -358,46 +254,21 @@ footer .combined h3 {
   }
 
   /* BUTTONS */
-  /* added the prev button */
   header button .carousel-control-prev,
   .carousel-control-next {
     display: inherit;
   }
 
-  /* added back the next button */
   header button .carousel-control-next,
   .carousel-control-prev {
     display: inherit;
   }
   /*  */
 
-  /* gave the image a width and spaces around */
-  article .image img {
-    width: 100%;
-    padding: 8rem 2rem;
-  }
-
-  /* gave the article paragraph (p) top and right space */
-  article p {
-    padding-top: 3rem;
-    padding-right: 2rem;
-  }
-
   /* aligned all the article text to the left and gave them top and bottom space */
   article #text {
     text-align: start;
     padding: 5rem 0;
-  }
-
-  /* gave the article header (h2) a margin-top */
-  article h2 {
-    margin-top: 3rem;
-  }
-
-  /* gave the article headings (h2 & h3) a font-size */
-  article h2,
-  h3 {
-    font-size: 1rem;
   }
 
   /* made the id called abt-image not display */
@@ -413,118 +284,68 @@ footer .combined h3 {
   /* made the desktop image in the class of about-image display by
    turning it on here*/
   article .desktop .about-image {
-    display: inherit;
+    display: block;
   }
 
-  /* made the whole desktop article display by turning it on here  */
   article .desktop {
-    display: inherit;
+    display: block;
   }
 
-  /* aligned all the text in the deastop article aligned to the left */
-  article .desktop h6,
-  h2,
-  h4,
-  p {
-    text-align: start;
+  article .row .image img {
+    width: 100%;
   }
 
   /* ARTICLE-2 */
-  /* gave the whole article for destop a left padding */
-  .article-2 {
-    padding: 0 3rem;
+
+  .article-2 .row {
+    background-color: rgb(242, 252, 249);
   }
 
   /* gave the cards and equal view height */
   .article-2 .row .card {
-    height: 120vh;
+    height: 100vh;
     width: 100%;
   }
 
   /* gave the class of article-2 and class of programmes a padding */
   .article-2 .programmes {
-    padding: 8rem 5rem 5rem;
+    padding: 0rem 10rem 0rem;
   }
 
-  /* gave the class of article-2 and class of programmes paragraph (p) 
-a padding and aligned everything to the center */
-  .article-2 .programmes p {
-    padding: 0 8rem;
-  }
-
-  /* gave the card image and equal veiw height and different from the mobile*/
+  /* gave the card image and equal veiw height and different from the desktop*/
   .article-2 .row img {
-    height: 60vh;
+    height: 45vh;
   }
 
   .article-2 .row .card-1 {
-    display: inherit;
+    display: block;
   }
 
-  /* made the anchor tlink display block and gave the 
-  desktop screen its own font-size and width */
   .article-2 .row a {
-    display: block;
     font-size: 1rem;
     width: 10rem;
   }
   /* End of article-2 */
 
   /* ARTICLE-3 */
-
-  .article-3 {
-    padding: 0 5rem;
-  }
-
-  /* gave the article-3 a center text and a margin-top */
-  .article-3 .latest-news {
-    text-align: center;
-    margin-top: 6rem;
-  }
-
-  /* give the paragraph of class latest-news a text-align of
- center a margin-top of -2rem for the destop view*/
-  .article-3 .latest-news p {
-    text-align: center;
-    margin-top: -2rem;
-  }
-
   /* gave the image equal view height for article-3 */
   .article-3 .row img {
     height: 35vh;
   }
-  /* END OF ARTICLE-3 */
 
   /* ARTICLE-4 */
   /* gave the button in article-4 a width */
   .article-4 button {
     width: 20%;
   }
-  /* END OF ARTICLE-4 */
 
   /* ARTICLE-5 */
-  /* gave the button class header-2 (h2) in article-5 spaces by
-   the side and a font-size*/
   .know-first h2 {
-    padding: 0 12rem;
     font-size: 1.5rem;
-    text-align: center;
   }
-  /* END OF ARTICLE-5 */
 
   /* ARTICLE-6 */
   .article-6 .got-questions h2 {
     font-size: 2rem;
-  }
-
-  /* moved the paragraph text to the center */
-  .article-6 .got-questions p {
-    margin-top: -18px;
-  }
-
-  /* FOOTER */
-  footer .combined h3 {
-    padding: 2rem 5rem 5rem;
-    color: #fff;
   }
 }
