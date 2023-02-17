@@ -8,7 +8,7 @@
 }
 
 nav .navbar-brand {
-  font-size: 1rem;
+  font-size: 10px;
   font-weight: bold;
   visibility: hidden;
 }
@@ -179,14 +179,14 @@ article .desktop {
   background-color: rgb(40, 136, 85);
   border: none;
   margin: 0 1rem;
-  width: 10rem;
+  width: 5rem;
 }
 
 .article-2 .row .btn-2 a {
   background-color: rgb(219, 249, 234);
   color: rgb(40, 136, 85);
   border: none;
-  width: 10rem;
+  width: 5rem;
 }
 
 /* END OF ARTICLE-2 */
