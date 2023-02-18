@@ -35,13 +35,14 @@ header .image {
 
 header .text {
   text-align: center;
-  padding: 3rem 2rem 0;
+  padding: 2rem 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     url(./images/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  height: 70vh;
 }
 
 /* CAROUSEL-2 */
@@ -54,6 +55,7 @@ header .text2 {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  height: 70vh;
 }
 
 .text2 img {
@@ -70,6 +72,7 @@ header .text3 {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  height: 70vh;
 }
 
 .text3 img {
