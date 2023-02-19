@@ -12,51 +12,48 @@
     <title>Login</title>
   </head>
   <body>
-    <nav>
-      <div class="links">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <img src="./images/logo.jpg" />
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+    <nav class="navbar navbar-expand-lg bg-white navbar-fixed">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.jpg" alt="logo" width="10%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav text-center">
+            <a class="nav-link pb-3" href="./index.html">Home</a>
+            <a class="nav-link pb-3" href="./about.html">About</a>
+            <a class="nav-link pb-3" href="./news.html">News</a>
+            <a
+              class="nav-link pb-3 active"
+              aria-current="page"
+              href="./contact.html"
+              >Contact</a
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
           </div>
-          <!-- this closing div coloses the div class of container-fluid -->
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="index.html">Home</a>
-              <a class="nav-link" href="about.html">About </a>
-              <a class="nav-link" href="news.html">News</a>
-              <a class="nav-link" href="contact.html">Contact</a>
-              <a class="nav-link active" aria-current="page" href="login.html"
-                >Login</a
-              >
-            </div>
-            <!-- this closing div closes the class of nav bar nav -->
-          </div>
-          <!-- this closing div cloases the class of collapse -->
-        </nav>
+        </div>
       </div>
-      <!-- this div closes the class of links -->
     </nav>
-    <!-- end of the navbar -->
 
     <section>
-      <div class="heading">
+      <div class="heading text-center mt-5 mb-5">
         <h2>Login to your NASIMS Account</h2>
       </div>
       <div class="row">
         <div class="col-sm-12 col-lg-6">
-          <div class="login">
+          <div class="login mb-5 mr-5">
             <p>
               For biometrics enrolment, kindly follow the instructions below;
             </p>
@@ -110,11 +107,11 @@
               </div>
 
               <div>
-                <a href="#">Forgot password</a>
+                <a href="#" class="text-decoration-none">Forgot password</a>
               </div>
             </div>
-            <div class="proceed">
-              <button>Proceed</button>
+            <div class="proceed mb-5 mt-4">
+              <button class="text-white">Proceed</button>
             </div>
           </form>
         </div>

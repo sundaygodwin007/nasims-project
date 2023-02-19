@@ -1,60 +1,46 @@
-/* gave the nav bar a position of absolute */
-nav {
-  position: absolute;
-  top: 0;
+.navbar-fixed {
+  width: 100%;
+  position: fixed;
   z-index: 9;
 }
 
-/* made the lins for the navbar fixed */
-nav .links {
-  position: fixed;
-  width: 100%;
+nav .navbar-brand {
+  font-size: 1rem;
+  font-weight: bold;
+  visibility: hidden;
 }
 
-/* gave the header a relative  */
-/* header {
-  position: relative;
-} */
+nav .navbar-nav .nav-btn {
+  background-color: rgb(40, 136, 85);
+  color: rgb(212, 231, 221);
+  margin-left: 12px;
+  width: 50%;
+  margin: auto;
+}
 
 /* gave the logo a size */
 .links img {
   width: 15%;
 }
 
-/* gave the links after clicking the button on mobile a text align of center */
-.links a {
-  text-align: center;
-}
-/* END OF NAVBAR */
-
 /* SECTION */
 section {
   margin: 0 1rem;
-}
-/* gave the heading a margin-top and also moved the texts
- to the center and gave it space at the bottom*/
-section .heading {
-  margin-top: 10rem;
-  text-align: center;
-  margin-bottom: 3rem;
+  padding-top: 5rem;
 }
 
 /* moved all the text in the class of login to the
  center and gave the spaces around and also a background-color */
 section .login {
-  text-align: center;
   background-color: rgb(141, 246, 211);
   padding: 1rem 2rem;
   border-radius: 10px;
-  margin-right: 2rem;
-  margin-bottom: 3rem;
 }
 
 /* gave the section and login class order list a line
  height and text align of start */
 section .login ol,
 p {
-  text-align: start;
   line-height: 2rem;
 }
 
@@ -75,7 +61,6 @@ section .row .combined .checkbox {
 
 /* gave the anchor tag a color */
 section .combined a {
-  text-decoration: none;
   color: rgb(50, 168, 129);
 }
 
@@ -83,10 +68,7 @@ section .combined a {
 section .proceed button {
   background-color: rgb(50, 168, 129);
   border: none;
-  color: #fff;
   padding: 10px 2rem;
   width: 60%;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
   border-radius: 10px;
 }
