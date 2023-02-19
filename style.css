@@ -84,7 +84,6 @@ header a {
   color: rgb(40, 136, 85);
   font-weight: bold;
 }
-/*  */
 
 /* removed the prev button */
 header button .carousel-control-prev,
@@ -191,8 +190,6 @@ article .desktop {
   border: none;
   width: 8rem;
 }
-
-/* END OF ARTICLE-2 */
 
 /* ARTICLE-3 */
 /* gave the image equal view height for article-3 */
@@ -329,7 +326,6 @@ footer {
     font-size: 1rem;
     width: 10rem;
   }
-  /* End of article-2 */
 
   /* ARTICLE-3 */
   /* gave the image equal view height for article-3 */
