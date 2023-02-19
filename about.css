@@ -40,6 +40,7 @@ section .row {
 /* allowed the image cover the full width and gave it a margin-top */
 section .row img {
   margin-top: 7.7rem;
+  width: 100%;
 }
 
 /* ARTICLE */
