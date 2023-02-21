@@ -163,7 +163,7 @@ article .desktop {
 
 /* gave the card a different view height from the desktop */
 .article-2 .row .card {
-  height: 110vh;
+  height: 120vh;
   width: 100%;
 }
 
