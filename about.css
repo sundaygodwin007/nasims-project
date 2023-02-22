@@ -34,13 +34,6 @@ header .centered {
   color: #fff;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: bold;
-}
-
 /* SECTION */
 /* gave the grid be 100% so it doesnt have an over flow */
 section .row {

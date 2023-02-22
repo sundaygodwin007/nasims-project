@@ -33,13 +33,6 @@ section {
   padding-top: 5rem;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: bold;
-}
-
 /* moved all the text in the class of login to the
  center and gave the spaces around and also a background-color */
 section .login {

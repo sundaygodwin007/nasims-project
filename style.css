@@ -79,13 +79,6 @@ header .text3 {
   height: 70vh;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-weight: bold;
-}
-
 .text3 img {
   width: 25%;
 }
@@ -244,6 +237,7 @@ footer {
   }
 
   /* HEADER */
+
   header .image {
     display: block;
   }
@@ -268,13 +262,14 @@ footer {
   /* BUTTONS */
   header button .carousel-control-prev,
   .carousel-control-next {
-    display: inherit;
+    display: block;
   }
 
   header button .carousel-control-next,
   .carousel-control-prev {
-    display: inherit;
+    display: block;
   }
+
   /*  */
 
   /* aligned all the article text to the left and gave them top and bottom space */

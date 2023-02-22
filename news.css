@@ -28,12 +28,6 @@ header {
   padding: 15rem 3rem 7.5rem;
 }
 
-h1,
-h2,
-h3 {
-  font-weight: bold;
-}
-
 /* gave the grid a width of 100% so there wont be an overflow */
 .row {
   width: 100%;
