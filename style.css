@@ -7,6 +7,10 @@
   z-index: 9;
 }
 
+nav {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 nav .navbar-brand {
   font-size: 10px;
   font-weight: bold;
@@ -73,6 +77,13 @@ header .text3 {
   background-size: cover;
   color: #fff;
   height: 70vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
 }
 
 .text3 img {
@@ -331,6 +342,10 @@ footer {
   /* gave the image equal view height for article-3 */
   .article-3 .row img {
     height: 35vh;
+  }
+
+  .article-3 .card p span {
+    border-bottom: 3px solid rgb(251, 206, 101);
   }
 
   /* ARTICLE-4 */

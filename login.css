@@ -4,6 +4,10 @@
   z-index: 9;
 }
 
+nav {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 nav .navbar-brand {
   font-size: 1rem;
   font-weight: bold;
@@ -27,6 +31,13 @@ nav .navbar-nav .nav-btn {
 section {
   margin: 0 1rem;
   padding-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
 }
 
 /* moved all the text in the class of login to the

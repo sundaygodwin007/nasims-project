@@ -5,6 +5,10 @@
   z-index: 9;
 }
 
+nav {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 nav .navbar-brand {
   font-size: 1rem;
   font-weight: bold;
@@ -22,6 +26,12 @@ nav .navbar-nav .nav-btn {
 header {
   background-color: rgb(249, 236, 220);
   padding: 15rem 3rem 7.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
 
 /* gave the grid a width of 100% so there wont be an overflow */
